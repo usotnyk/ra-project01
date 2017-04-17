@@ -202,8 +202,7 @@ a:hover {
   }
 
   #social {
-    flex-direction: column;
-
+  flex-direction: column;
   }
 
   #social a {
