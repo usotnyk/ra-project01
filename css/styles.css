@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bottomjumbotron {
-  background: url('assets/images/wave-bkgd.jpg') no-repeat;
+  background: url('assets/images/wave-bkgd-cut.jpg') no-repeat;
   background-size: cover;
   height: 15em;
 }
@@ -115,8 +115,58 @@ h1, h2, h3, h4, h5, h6 {
   color: #e2574c;
 }
 
-.bg-dark-grey {
+.light-grey {
+  color: #969696;
+}
+
+/*HTML sections */
+
+.bottom-form {
+  border-radius: 50px;
+  background-color: white;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.email-input {
+  border-width: 0;
+  border-radius: 50px;
+  padding: 8px 20px;
+
+}
+
+.email-input:focus {
+  outline: 0;
+} 
+
+.subscribe {
+  margin: 3px;
+  background-color: #e2574c;
+}
+
+.footer {
   background-color: #242424;
+  flex-direction: column;
+  margin-top: 8px;
+  padding: 40px 0;
+}
+
+.footer h4, .footer section {
+  margin: 8px 0;
+}
+
+/*Links */
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #b64036;
+}
+
+.mobile-invisible {
+  display: none;
 }
 
 /* Margins and Paddings */
@@ -125,6 +175,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.2em;
 }
 
+.bottomjumbotron p {
+  padding: 3px 60px;
+}
 
 
 /* Tablet */
@@ -132,7 +185,30 @@ h1, h2, h3, h4, h5, h6 {
 
   html, body {
   font-size: 16px;
-}
+  }
+
+  .bottom-form {
+  width: 60%;
+  }
+
+  .mobile-invisible {
+  display: block;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  #social {
+    flex-direction: column;
+
+  }
+
+  #social a {
+    text-decoration: none;
+  }
 
 }
 
@@ -141,6 +217,14 @@ h1, h2, h3, h4, h5, h6 {
 
   html, body {
   font-size: 16px;
-}
+  }
+
+  .bottom-form {
+  width: 30%;
+  }
+
+  .mobile-invisible {
+  display: block;
+  }
   
 }
