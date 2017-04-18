@@ -11,4 +11,11 @@ Apr-18-2017
 
 -completed mobile version of the website (except aligning images in <nav>).
 
+Apr-19-2017
+To Do:
+  -fix nav bar;
+  -change all width:100% to flex:1;
+  -change yellow selection:focus (pseudoselector) in Subscribe;
+  -look into Flickicity slider!
+
 
