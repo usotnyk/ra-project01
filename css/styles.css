@@ -62,7 +62,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Flex */
-
 .flex {
   display: flex;
 }
@@ -73,36 +72,56 @@ h1, h2, h3, h4, h5, h6 {
 
 .center-content {
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
-.center-text {
-  text-align: center;
+.just-center {
+  justify-content: center;
 }
 
 .align-self-center {
   align-self: center;
 }
 
+.just-start {
+  justify-content: flex-start;
+}
+
+.just-space-between {
+  justify-content: space-between;
+}
+
+.width-hundred {
+  width: 100%
+}
+
+.width-third {
+  width: 30%;
+}
+
+.center-text {
+  text-align: center;
+}
+
 /* Backgrounds */
 
 .jumbotron {
-  background: url('assets/images/flower-bkgd.jpg') no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/flower-bkgd.jpg') no-repeat;
   background-size: cover;
   height: 20em;
   align-content: flex-end;
 }
 
 .innerjumbotron {
-  background: url('assets/images/banner-girl.png')  no-repeat center bottom;
+  background: url('assets/images/banner-girl-cut.png')  no-repeat center bottom;
   background-size: cover;
-  background-size: 35%;
+  background-size: 40%;
 }
 
 .bottomjumbotron {
-  background: url('assets/images/wave-bkgd-cut.jpg') no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/wave-bkgd-cut.jpg') no-repeat;
   background-size: cover;
-  height: 15em;
+  height: 20em;
 }
 
 /* colors */
@@ -120,6 +139,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*HTML sections */
+
+nav {
+  max-height: 40px;
+  padding: 6px 0;
+}
 
 .bottom-form {
   border-radius: 50px;
@@ -148,17 +172,26 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #242424;
   flex-direction: column;
   margin-top: 8px;
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .footer h4, .footer section {
   margin: 8px 0;
 }
 
+.social .flex {
+  padding: 0 5px;
+}
+
+p {
+  line-height: 1.8em;
+}
+
 /*Links */
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 a:hover {
@@ -169,15 +202,25 @@ a:hover {
   display: none;
 }
 
+.footer>section>h4>a {
+  text-decoration: underline;
+}
+
 /* Margins and Paddings */
 
 .margin-sm {
   margin: 0.2em;
 }
 
-.bottomjumbotron p {
-  padding: 3px 60px;
+.margin-md {
+  margin: 2.2em;
 }
+
+.padding-sm {
+  padding: 10px;
+}
+
+
 
 
 /* Tablet */
@@ -201,12 +244,17 @@ a:hover {
     text-align: left;
   }
 
-  #social {
+  .social {
   flex-direction: column;
+  width: 20%;
   }
 
-  #social a {
+  .social a {
     text-decoration: none;
+  }
+
+  .footer section {
+    text-align: left;
   }
 
 }
