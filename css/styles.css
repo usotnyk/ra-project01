@@ -103,19 +103,20 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+.flex-one {
+  flex: 1;
+}
+
+
 /* Backgrounds */
 
 .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/flower-bkgd.jpg') no-repeat;
-  background-size: cover;
-  height: 20em;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/banner-girl-cut.png'), url('assets/images/flower-bkgd.jpg');
+  background-size: cover, 25vh, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center, center bottom, center;
+  height: 70vh;
   align-content: flex-end;
-}
-
-.innerjumbotron {
-  background: url('assets/images/banner-girl-cut.png')  no-repeat center bottom;
-  background-size: cover;
-  background-size: 40%;
 }
 
 .bottomjumbotron {
@@ -123,6 +124,10 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   height: 20em;
   flex:1;
+}
+
+input:active {
+  background-color:red;
 }
 
 /* colors */
@@ -198,7 +203,7 @@ a:hover {
   color: #b64036;
 }
 
-.mobile-invisible {
+.mobile-hide {
   display: none;
 }
 
@@ -236,19 +241,21 @@ a:hover {
   width: 60%;
   }
 
-  .mobile-invisible {
+  .mobile-hide {
   display: block;
   }
 
   .footer {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: left;
+    padding: 30px
   }
 
   .social {
   flex-direction: column;
   width: 20%;
+  max-height: 200px;
   }
 
   .social a {
@@ -268,12 +275,50 @@ a:hover {
   font-size: 16px;
   }
 
+  .bottomjumbotron p {
+    padding: 0 200px;
+  }
+  .flex-grow-desktop {
+
+  }
+  .flex-direction-column-desktop {
+
+  }
+  .footer i {
+    flex: 1;
+  }
+
+  .footer p {
+    flex: 5;
+  }
+
   .bottom-form {
   width: 30%;
   }
 
-  .mobile-invisible {
+  .mobile-hide {
   display: block;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 30px
+  }
+
+  .social {
+  flex-direction: column;
+  width: 20%;
+  max-height: 200px;
+  }
+
+  .social a {
+    text-decoration: none;
+  }
+
+  .footer section {
+    text-align: left;
   }
   
 }

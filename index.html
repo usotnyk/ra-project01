@@ -5,30 +5,33 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>Aloha Apparel Co.</title>
- <link href="css/styles.css" rel="stylesheet">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+ <script type="text/javascript" src="js/myscript.js"></script>
+
  <link rel="stylesheet" href="css/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+ <link href="css/styles.css" rel="stylesheet">
+
 </head>
 <body>
 
 <!--Navbar!-->
 <nav class="flex just-space-between max-height">
   <div class="flex">
-   <img src="css/assets/images/aloha-logo.svg" class="max-height">
+   <a href=""><img src="css/assets/images/aloha-logo.svg" class="max-height"></a>
   </div>
   <div  class="flex">
-   <img src="css/assets/images/cart-icon.svg" class="max-height">
+   <a href=""><img src="css/assets/images/cart-icon.svg" class="max-height"></a>
   </div>
 </nav>
 <!--End of Navbar!-->
 
 <!--Jumbotron!-->
 
-  <header class="jumbotron flex just-center">
-    <div class="innerjumbotron white flex">
-      <div class="center-content center-text align-self-center">
-       <p class="margin-sm">NEW COLLECTION</p>
-       <h1 class="margin-sm">Spring/Summer 2016</h1>
-      </div>
+  <header class="jumbotron flex just-center white">
+    <div class="center-content center-text align-self-center">
+      <p class="margin-sm">NEW COLLECTION</p>
+      <h1 class="margin-sm">Spring/Summer 2016</h1>
     </div>
   </header>
 
@@ -73,14 +76,15 @@
 
   <!--Bottom Jumbotron!-->
   <section class="flex center-content white">
-    <div class="bottomjumbotron center-text flex">
-      <div class="align-self-center">
+    <div class="bottomjumbotron center-text flex center-content">
+      <div class="flex-one">
        <h2><i>Sign-up for</i> <b>Updates</b></h2>
        <p class="padding-sm">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
        <form action="" class="flex center-content">
         <div class="flex bottom-form">
          <input type="email" name="email" placeholder="Your Email" class="light-grey email-input width-hundred">
-         <input type="submit" value="Subscribe" class="subscribe white email-input">
+         <!--<input type="submit" value="Subscribe" class="subscribe white email-input">-->
+         <button type="button" class="subscribe white email-input">Subscribe</button>
         </div>
        </form>
       </div>
@@ -107,27 +111,27 @@
      <div class="flex width-hundred">
       <a href="" class="flex center-content width-hundred just-start">
        <i class="fa fa-facebook width-third" aria-hidden="true"></i>
-       <p class="mobile-invisible">Facebook</p></a>
+       <p class="mobile-hide">Facebook</p></a>
      </div>
      <div class="flex width-hundred">
       <a href="" class="flex center-content width-hundred just-start">
        <i class="fa fa-twitter width-third" aria-hidden="true"></i>
-       <p class="mobile-invisible">Twitter</p></a>
+       <p class="mobile-hide">Twitter</p></a>
      </div>
      <div class="flex width-hundred">
       <a href="" class="flex center-content width-hundred just-start">
        <i class="fa fa-instagram width-third" aria-hidden="true"></i>
-       <p class="mobile-invisible">Instagram</p></a>
+       <p class="mobile-hide">Instagram</p></a>
      </div>
      <div class="flex width-hundred">
       <a href="" class="flex center-content width-hundred just-start">
        <i class="fa fa-pinterest-p width-third" aria-hidden="true"></i>
-       <p class="mobile-invisible">Pinterest</p></a>
+       <p class="mobile-hide">Pinterest</p></a>
       </div>
      <div class="flex width-hundred">
       <a href="" class="flex center-content width-hundred just-start">
        <i class="fa fa-google-plus width-third" aria-hidden="true"></i>
-       <p class="mobile-invisible">Google+</p></a>
+       <p class="mobile-hide">Google+</p></a>
      </div>
     </section>
 
