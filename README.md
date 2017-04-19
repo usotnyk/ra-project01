@@ -14,8 +14,15 @@ Apr-18-2017
 Apr-19-2017
 To Do:
   -fix nav bar;
-  -change all width:100% to flex:1;
   -change yellow selection:focus (pseudoselector) in Subscribe;
   -look into Flickicity slider!
+
+  Done: 
+  -completed top nav bar (aligning/sizing images in flex);
+  -refactored jumbotrons: combined two images in background;
+  -completed footer alignments;
+  -added regexp for email validation into html document (if adding through javascript/jquery - built in email-validation is overritten).
+
+
 
 
