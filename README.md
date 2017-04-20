@@ -11,7 +11,7 @@ Apr-18-2017
 
 -completed mobile version of the website (except aligning images in <nav>).
 
-Apr-19-2017
+Apr-18-2017
 To Do:
   -fix nav bar;
   -change yellow selection:focus (pseudoselector) in Subscribe;
@@ -23,7 +23,7 @@ Done:
   -completed footer alignments;
   -added regexp for email validation into html document (if adding through javascript/jquery - built in email-validation is overritten).
 
-Apr-20-2017
+Apr-19-2017
 
 To Do:
   -Add navbar menue + smooth scroll;
@@ -37,6 +37,12 @@ Done:
   -fixed main description paragraph alignment;
   -added alert message when email is submitted;
 
+Apr-20-2017
 
+To do:
+  -implement Flickity;
+
+Done:
+  -fixed nav bar element alignment with flex;
 
 

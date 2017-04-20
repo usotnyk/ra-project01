@@ -133,10 +133,6 @@ h1, h2, h3, h4, h5, h6 {
   flex:1;
 }
 
-input:active {
-  background-color:red;
-}
-
 /* colors */
 
 .white {
@@ -173,7 +169,13 @@ nav {
 
 .email-input:focus {
   outline: 0;
+  background-color: transparent;
 } 
+
+/* input field - outofill how to target?*/
+.email-input:textarea-webkit-autofill {
+  background-color: red;
+}
 
 .subscribe {
   margin: 3px;
@@ -200,8 +202,6 @@ p {
 
 ul {
   list-style-type: none;
-  margin: 0.3em 0 0 0;
-  padding: 0;
 }
 
 li {
