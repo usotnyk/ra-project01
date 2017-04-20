@@ -208,6 +208,13 @@ li {
   display: inline;
   padding: 0 10px;
 }
+
+/*Carousel*/
+
+.carousel-cell {
+  width: 100%;
+}
+
 /*Links */
 
 a {
@@ -282,6 +289,10 @@ a:hover {
     width: 70%;
   }
 
+  .carousel-cell {
+    width: 50%;
+}
+
 }
 
 /* Desktop */
@@ -335,5 +346,9 @@ a:hover {
   .bottom-form {
     width: 30%;
   }
+
+  .carousel-cell {
+    width: 25%;
+}
 
 }

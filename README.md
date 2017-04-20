@@ -41,6 +41,7 @@ Apr-20-2017
 
 To do:
   -implement Flickity;
+  -add product grid for all 3 screens!
 
 Done:
   -fixed nav bar element alignment with flex;

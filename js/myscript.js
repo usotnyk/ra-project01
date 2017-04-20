@@ -55,4 +55,16 @@ $(document).ready(function(){
       });
     } // End if
   });
+
+//Slider - Flickity
+
+  $('.main-carousel').flickity({
+  // options
+  cellAlign: 'center',
+  contain: true
+  });
+
 });
+
+
+
