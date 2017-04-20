@@ -47,5 +47,6 @@ To do:
 Done:
   - Added 4 additional feature products;
   -Impremented Flickity carousel + updated styling according to mockups;
+  -Rearranged nav bar to reflect mockups of part2;
 
 

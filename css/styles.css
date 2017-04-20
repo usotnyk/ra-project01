@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+.mobile-display-only {
+    display: block;
+  }
+
 /* Flex */
 .flex {
   display: flex;
@@ -107,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.flex-one {
+.flex-grow-one {
   flex: 1;
 }
 
@@ -203,6 +207,7 @@ p {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 nav li {
@@ -257,6 +262,10 @@ a:hover {
     display: block;
   }
 
+  .mobile-display-only {
+    display: none;
+  }
+
   html, body {
     font-size: 16px;
   }
@@ -292,7 +301,11 @@ a:hover {
 
   .carousel-cell {
     width: 50%;
-}
+  }
+
+  .flex-order-one {
+  order: 1;
+  }
 
 }
 
@@ -301,6 +314,10 @@ a:hover {
 
   .mobile-hide {
     display: block;
+  }
+
+  .mobile-display-only {
+    display: none;
   }
 
   html, body {
@@ -350,6 +367,10 @@ a:hover {
 
   .carousel-cell {
     width: 25%;
-}
+  }
+
+  .flex-order-one {
+    order: 1;
+  }
 
 }

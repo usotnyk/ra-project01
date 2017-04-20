@@ -19,19 +19,23 @@
 <body>
 
 <!--Navbar!-->
-<nav class="flex just-space-between max-height">
+<nav class="flex just-space-between wrap">
   <div class="flex">
    <a href=""><img src="css/assets/images/aloha-logo.svg" class="max-height"></a>
   </div>
-  <div class="flex">
-  <ul class="mobile-hide align-self-center">
-    <li><a href="#styles" onclick="return false">Styles</a></li>
-    <li><a href="#products" onclick="return false">Products</a></li>
-    <li><a href="#updates" onclick="return false">Subscribe</a></li>
-  </ul>
-  <div  class="flex">
-   <a href=""><img src="css/assets/images/cart-icon.svg" class="max-height"></a>
-   </div>
+  <div  class="flex flex-order-one">
+    <a href=""><img src="css/assets/images/cart-icon.svg" class="max-height"></a>
+  </div>
+  <hr class="mobile-display-only width-hundred">
+  <div class="flex center-content flex-grow-one">
+    <div class="flex">
+      <ul class="align-self-center orange flex">
+        <li><a href="#about" onclick="return false">ABOUT</a></li>
+        <li><a href="#shop" onclick="return false">SHOP</a></li>
+        <li><a href="#products" onclick="return false">FEATURED</a></li>
+        <li><a href="#updates" onclick="return false">UPDATES</a></li>
+      </ul>
+      </div>
   </div>
 </nav>
 <!--End of Navbar!-->
@@ -50,7 +54,7 @@
 <!--Main!-->
 
   <section class="flex flex-column center-content">
-    <h2 class="center-text" id="styles"><i>Hand-Crafted</i> <b>Styles</b></h2>
+    <h2 class="center-text" id="about"><i>Hand-Crafted</i> <b>Styles</b></h2>
     <p class="center-text width-desktop width-tablet">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products of sign-up for updates below.</p>
   </section>
   <hr>
@@ -146,9 +150,9 @@
   <!--End of Main!-->
 
   <!--Bottom Jumbotron!-->
-  <section class="flex center-content white" id="updates">
+  <section class="flex center-content white">
     <div class="bottomjumbotron center-text flex center-content">
-      <div class="flex-one">
+      <div class="flex-grow-one" id="updates">
        <h2><i>Sign-up for</i> <b>Updates</b></h2>
        <p class="padding-sm">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
        <form id="emailForm" action="" class="flex center-content">
