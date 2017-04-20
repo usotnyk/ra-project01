@@ -15,13 +15,27 @@ Apr-19-2017
 To Do:
   -fix nav bar;
   -change yellow selection:focus (pseudoselector) in Subscribe;
-  -look into Flickicity slider!
+  -look into Flickity slider!
 
-  Done: 
+Done: 
   -completed top nav bar (aligning/sizing images in flex);
   -refactored jumbotrons: combined two images in background;
   -completed footer alignments;
   -added regexp for email validation into html document (if adding through javascript/jquery - built in email-validation is overritten).
+
+Apr-20-2017
+
+To Do:
+  -Add navbar menue + smooth scroll;
+  -Flickity slider (add 4 more products)!
+  -Add alert for subscribing.
+
+Done:
+
+  -added <li> to navbar to build menu;
+  -added smooth scrol to nav bar links;
+  -fixed main description paragraph alignment;
+  -added alert message when email is submitted;
 
 
 

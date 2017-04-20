@@ -7,6 +7,9 @@
  <title>Aloha Apparel Co.</title>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+ <!--flicity sctript goes here-->
+
  <script type="text/javascript" src="js/myscript.js"></script>
 
  <link rel="stylesheet" href="css/assets/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -20,6 +23,11 @@
   <div class="flex">
    <a href=""><img src="css/assets/images/aloha-logo.svg" class="max-height"></a>
   </div>
+  <ul class="mobile-hide">
+    <li><a href="#styles" onclick="return false">Styles</a></li>
+    <li><a href="#products" onclick="return false">Products</a></li>
+    <li><a href="#updates" onclick="return false">Subscribe</a></li>
+  </ul>
   <div  class="flex">
    <a href=""><img src="css/assets/images/cart-icon.svg" class="max-height"></a>
   </div>
@@ -39,12 +47,12 @@
 
 <!--Main!-->
 
-  <section>
-    <h2 class="center-text margin-md"><i>Hand-Crafted</i> <b>Styles</b></h2>
-    <p class="center-text">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products of sign-up for updates below.</p>
+  <section class="flex flex-column center-content">
+    <h2 class="center-text" id="styles"><i>Hand-Crafted</i> <b>Styles</b></h2>
+    <p class="center-text width-desktop width-tablet">Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products of sign-up for updates below.</p>
   </section>
   <hr>
-  <h2 class="center-text margin-md"><i>Most-Loved</i> <b>Products</b></h2>
+  <h2 class="center-text margin-md" id="products"><i>Most-Loved</i> <b>Products</b></h2>
   <section class="flex wrap center-content">
     <a href="" class="center-text">
       <img src="css/assets/images/stretch-knit-dress.jpg">
@@ -75,7 +83,7 @@
   <!--End of Main!-->
 
   <!--Bottom Jumbotron!-->
-  <section class="flex center-content white">
+  <section class="flex center-content white" id="updates">
     <div class="bottomjumbotron center-text flex center-content">
       <div class="flex-one">
        <h2><i>Sign-up for</i> <b>Updates</b></h2>
@@ -95,7 +103,7 @@
 
   <!--Footer!-->
 
-  <footer class="flex footer white center-content">
+  <footer class="flex footer white center-content flex-column">
 
    <section class="center-text">
      <h4>&copy 2016 Aloha Apparel Co.</h4>
