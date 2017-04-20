@@ -42,8 +42,10 @@ Apr-20-2017
 To do:
   -implement Flickity;
   -add product grid for all 3 screens!
+  -fix nav bar menu alignment according to the mockups; 
 
 Done:
-  -fixed nav bar element alignment with flex;
+  - Added 4 additional feature products;
+  -Impremented Flickity carousel + updated styling according to mockups;
 
 
