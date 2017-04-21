@@ -232,6 +232,10 @@ nav li {
   padding: 0 10px;
 }
 
+.bottomjumbotron h2 {
+  padding: 0.7em 0;
+}
+
 /*Carousel*/
 
 .carousel-cell {
@@ -275,9 +279,9 @@ a:hover {
 
 .box {
   height: 20vh;
-  margin: 4px;
   flex: 1;
-  font-size: 1.5em;
+  font-size: 1.1em;
+  margin-bottom: 5px;
 }
 
 .box1 {
@@ -293,11 +297,13 @@ a:hover {
 .box3 {
   background: url('assets/images/glasses-category.jpg') no-repeat 100% center;
   background-size: cover;
+  margin-left: 5px;
 }
 
 .box4 {
   background: url('assets/images/sale-category.jpg') no-repeat 100% center;
   background-size: cover;
+  margin-right: 5px;
 }
 
 .box5 {
@@ -368,7 +374,22 @@ a:hover {
 
   .flex-one-dk-tb {
     flex: 1;
-    margin: 0 4px;
+  }
+
+  .box1 {
+    margin-right: 5px;
+  }
+
+  .box3 {
+    margin-left: 5px;
+  }
+
+  .box4 {
+    margin-right: 5px;
+  }
+
+  .box6 {
+    margin-left: 5px;
   }
 
 }
@@ -393,7 +414,7 @@ a:hover {
   }
 
   .bottomjumbotron p {
-    padding: 0 200px;
+    padding: 20px 200px;
   }
 
   .footer i {
@@ -443,6 +464,22 @@ a:hover {
 
   .flex-one-dk-tb {
     flex: 1;
+  }
+
+  .box1 {
+    margin-right: 5px;
+  }
+
+  .box3 {
+    margin-left: 5px;
+  }
+
+  .box4 {
+    margin-right: 5px;
+  }
+
+  .box6 {
+    margin-left: 5px;
   }
 
 }
