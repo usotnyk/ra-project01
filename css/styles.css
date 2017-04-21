@@ -1,63 +1,16 @@
-/* Fonts */
+/* Main */
 
-@font-face {
-  font-family: PlayfairDisplay;
-  src: url(assets/fonts/playfairdisplay-regular.otf);
-  font-weight: regular;
-}
-
-@font-face {
-  font-family: PlayfairDisplay;
-  src: url(assets/fonts/playfairdisplay-italic.otf);
-  font-style: italic;
-}
-
-@font-face {
-  font-family: PlayfairDisplay;
-  src: url(assets/fonts/playfairdisplay-bold.otf);
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: PlayfairDisplay;
-  src: url(assets/fonts/playfairdisplay-bolditalic.otf);
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(assets/fonts/raleway-medium.ttf);
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(assets/fonts/raleway-mediumitalic.ttf);
-  font-style: italic;
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(assets/fonts/raleway-light.ttf);
-  font-weight: lighter;
-}
-
-@font-face {
-  font-family: Raleway;
-  src: url(assets/fonts/raleway-lightitalic.ttf);
-  font-weight: lighter;
-  font-style: italic;
-}
 
 html, body {
   font-size: 14px;
-  font-family: Raleway;
-  font-weight: lighter;
+  font-family: Raleway , sans-serif;
+  font-weight: 300;
   color: #2d2d2d;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: PlayfairDisplay;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
 }
 
