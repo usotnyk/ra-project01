@@ -365,6 +365,10 @@ a:hover {
     flex: 1;
   }
 
+  .box {
+    height: 25vh;
+}
+
   .box1 {
     margin-right: 5px;
   }
@@ -454,6 +458,10 @@ a:hover {
   .flex-one-dk-tb {
     flex: 1;
   }
+
+  .box {
+    height: 35vh;
+}
 
   .box1 {
     margin-right: 5px;
