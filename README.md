@@ -50,5 +50,6 @@ Done:
   -Impremented Flickity carousel + updated styling according to mockups;
   -Rearranged nav bar to reflect mockups of part2;
   -added CSS reset and updated styles accordigly;
+  -created products categories grid;
 
 

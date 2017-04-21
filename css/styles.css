@@ -62,12 +62,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.1em;
+  padding: 1.5em;
 }
 
 h2 {
-  font-size: 1.5em;
-  padding: 1.5em;
+  font-size: 2em;
+  padding: 1.3em;
 }
 
 .mobile-hide {
@@ -125,6 +130,10 @@ h2 {
 }
 
 .flex-column {
+  flex-direction: column;
+}
+
+.flex-column-mb {
   flex-direction: column;
 }
 
@@ -186,11 +195,6 @@ nav {
   background-color: transparent;
 } 
 
-/* input field - outofill how to target?*/
-.email-input:textarea-webkit-autofill {
-  background-color: red;
-}
-
 .subscribe {
   margin: 3px;
   background-color: #e2574c;
@@ -213,6 +217,10 @@ nav {
 p {
   line-height: 1.8em;
 }
+
+.social p {
+    padding: 0;
+  }
 
 ul {
   list-style-type: none;
@@ -263,6 +271,44 @@ a:hover {
   max-height: 40px;
 }
 
+/* Grid */
+
+.box {
+  height: 20vh;
+  margin: 4px;
+  flex: 1;
+  font-size: 1.5em;
+}
+
+.box1 {
+  background: url('assets/images/mens-category.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.box2 {
+  background: url('assets/images/trends-category.jpg') no-repeat 100% center;
+  background-size: cover;
+}
+
+.box3 {
+  background: url('assets/images/glasses-category.jpg') no-repeat 100% center;
+  background-size: cover;
+}
+
+.box4 {
+  background: url('assets/images/sale-category.jpg') no-repeat 100% center;
+  background-size: cover;
+}
+
+.box5 {
+  background: url('assets/images/bags-category.jpg') no-repeat 100% center;
+  background-size: cover;
+}
+
+.box6 {
+  background: url('assets/images/womens-category.jpg') no-repeat 100% center;
+  background-size: cover;
+}
 
 /* Tablet */
 @media (min-width: 600px) and (max-width: 1239px) {
@@ -316,6 +362,15 @@ a:hover {
   order: 1;
   }
 
+  .flex-column-mb {
+  flex-direction: row;
+  }
+
+  .flex-one-dk-tb {
+    flex: 1;
+    margin: 0 4px;
+  }
+
 }
 
 /* Desktop */
@@ -353,7 +408,7 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
-    padding: 30px
+    padding: 30px;
   }
 
   .social {
@@ -380,6 +435,14 @@ a:hover {
 
   .flex-order-one {
     order: 1;
+  }
+
+  .flex-column-mb {
+  flex-direction: row;
+  }
+
+  .flex-one-dk-tb {
+    flex: 1;
   }
 
 }
