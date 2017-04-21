@@ -240,33 +240,69 @@ a:hover {
 .box1 {
   background: url('assets/images/mens-category.jpg') no-repeat center;
   background-size: cover;
+  transition: background-image 1s ease-in-out, background-size 2s ease-in-out;
+}
+
+.box1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/mens-category.jpg');
+  background-size: 110%;
 }
 
 .box2 {
   background: url('assets/images/trends-category.jpg') no-repeat 100% center;
   background-size: cover;
+  transition: background-image 1s ease-in-out, background-size 2s ease-in-out;
+}
+
+.box2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/trends-category.jpg');
+  background-size: 110%;
 }
 
 .box3 {
   background: url('assets/images/glasses-category.jpg') no-repeat 100% center;
   background-size: cover;
   margin-left: 5px;
+  transition: background-image 1s ease-in-out, background-size 2s ease-in-out;
+}
+
+.box3:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/glasses-category.jpg');
+  background-size: 110%;
 }
 
 .box4 {
   background: url('assets/images/sale-category.jpg') no-repeat 100% center;
   background-size: cover;
   margin-right: 5px;
+  transition: background-image 1s ease-in-out, background-size 2s ease-in-out;
+}
+
+.box4:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/sale-category.jpg');
+  background-size: 110%;
 }
 
 .box5 {
   background: url('assets/images/bags-category.jpg') no-repeat 100% center;
   background-size: cover;
+  transition: background-image 1s ease-in-out, background-size 2s ease-in-out;
+}
+
+.box5:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/bags-category.jpg');
+  background-size: 110%;
 }
 
 .box6 {
   background: url('assets/images/womens-category.jpg') no-repeat 100% center;
   background-size: cover;
+  transition: background-image 1s ease-in-out, background-size 2s ease-in-out;
+}
+
+.box6:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/womens-category.jpg');
+  background-size: 110%;
 }
 
 /* Tablet */

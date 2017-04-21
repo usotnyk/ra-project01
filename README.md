@@ -58,6 +58,7 @@ Done:
   -Fixed bottomjumbotron paddings for h2 and p.
   -Fixed alignments of the grid boxes with appropriate margins;
   -validates HTML and CSS code in online validators, fixed bugs;
-  -changed fonts to google fonts as saved fonts were not loading on github.io
+  -changed fonts to google fonts as saved fonts were not loading on github.io;
+  -added transitions on :hover for categories grid; 
 
 
