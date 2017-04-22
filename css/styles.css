@@ -144,10 +144,10 @@ h2 {
 
 .jumbotron {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('assets/images/banner-girl-cut.png'), url('assets/images/flower-bkgd.jpg');
-  background-size: cover, 25vh, cover;
+  background-size: cover, 21vh, cover;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center, center bottom, center;
-  height: 70vh;
+  height: 53vh;
   align-content: flex-end;
 }
 

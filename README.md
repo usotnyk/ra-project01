@@ -61,4 +61,13 @@ Done:
   -changed fonts to google fonts as saved fonts were not loading on github.io;
   -added transitions on :hover for categories grid; 
 
+Apr-22-2017
+
+Done:
+  -fixed categories grid:hover transitions;
+  -moved CSS reset to styles.css and js to main HTML to optimize performance.
+  -compressed images to minimize page size and loading time;
+
+  N.B. built in email verification (input field) does not work in Safari.
+
 

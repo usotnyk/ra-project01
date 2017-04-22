@@ -8,9 +8,7 @@
 <!--Javascript!-->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
- <script type="text/javascript" src="js/myscript.js"></script>
 <!-- CSS!-->
-<!--<link href="css/cssreset.css" rel="stylesheet">!-->
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:200i,300,400i,700,700i" rel="stylesheet">
 <link rel="stylesheet" href="css/assets/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -250,4 +248,57 @@
   <!--End Footer!-->
 
 </body>
+
+<!--Javascript!-->
+
+<script type="text/javascript">
+
+//Subscribe Alert
+$(document ).ready(function() {
+  var emailForm = document.getElementById("emailForm");
+
+  emailForm.addEventListener("submit", onSubmitEmailForm, false);
+});
+
+  function onSubmitEmailForm (eventObject) {
+    window.alert("Thank you for subscribing to our updates!")
+}
+
+//Smooth Scrolling
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+//Slider - Flickity
+
+  $('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true,
+  freeScroll: true,
+  wrapAround: true
+  });
+
+});
+
+</script>
 </html>
