@@ -1,5 +1,21 @@
-# ra-project01
-Aloha website: elegant, mobile compliant web page
+# ra-project01: Aloha website
+
+This is elegant website built using mobile-first responsive layout optimized for mobile, tablet and desktop). This website incorporates image slider for the featured product area.
+
+URL: https://usotnyk.github.io/ra-project01/
+
+Used tech and libraries:
+
+HTML semantic tags
+CSS3 (flexbox, background images, transitions on hover)
+Flickity carousel (jQuery plugin)
+Smooth scrolling in the menu to navigate to specific sections on the page
+RegEx for email verification rules + Alert box upon subscription
+Font Awesome
+Google Fonts
+Gulp build system to minify CSS for optimization
+
+Workflow
 
 Apr-17-2017
 
@@ -68,6 +84,6 @@ Done:
   -moved CSS reset to styles.css and js to main HTML to optimize performance.
   -compressed images to minimize page size and loading time;
 
-  N.B. built in email verification (input field) does not work in Safari.
+Bugs: built in email verification (input field) does not work in Safari.
 
 
