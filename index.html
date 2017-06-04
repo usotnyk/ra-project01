@@ -30,10 +30,10 @@
   <div class="flex center-content flex-grow-one">
     <div class="flex">
       <ul class="align-self-center orange flex">
-        <li><a href="#about" onclick="return false">ABOUT</a></li>
-        <li><a href="#shop" onclick="return false">SHOP</a></li>
-        <li><a href="#products" onclick="return false">FEATURED</a></li>
-        <li><a href="#updates" onclick="return false">UPDATES</a></li>
+        <li><a href="#about" class="smooth-scroll" onclick="return false">ABOUT</a></li>
+        <li><a href="#shop" class="smooth-scroll" onclick="return false">SHOP</a></li>
+        <li><a href="#products" class="smooth-scroll" onclick="return false">FEATURED</a></li>
+        <li><a href="#updates" class="smooth-scroll" onclick="return false">UPDATES</a></li>
       </ul>
       </div>
   </div>
@@ -268,7 +268,7 @@ $(document ).ready(function() {
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+  $(".smooth-scroll").on('click', function(event) {
 
     if (this.hash !== "") {
       // Prevent default anchor click behavior
